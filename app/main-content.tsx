@@ -33,7 +33,7 @@ const MainContent = (props: dataPropsType) => {
   };
 
   return (
-    <section className="md:px-10 px-5 w-full col-start-2 overflow-x-hidden max-w-[40rem] mx-auto lg:max-w-[60rem] xl:max-w-none">
+    <section className="px-5 w-full col-start-2 overflow-x-hidden max-w-[40rem] mx-auto lg:max-w-[60rem] xl:max-w-none">
       <div className="flex justify-between items-start xl:items-center py-6">
         <div className="md:block xl:gap-0 gap-2.5 flex flex-col">
           <MenuIcon className="md:hidden" onClick={handleClick} />
