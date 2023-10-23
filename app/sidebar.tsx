@@ -17,9 +17,9 @@ const Sidebar = (props: dataPropsType) => {
   const { open } = props;
   return (
     <nav
-      className={`px-4 py-7 border-r md:w-[25%] xl:w-[23%] border-[#EBEBEB] md:block ${
+      className={`px-4 py-7 border-r border-[#EBEBEB] md:block ${
         open ? "block bg-white" : "hidden"
-      } h-screen scroll fixed overflow-y-auto overflow-x-hidden`}
+      } h-screen scroll fixed overflow-y-auto`}
     >
       <div className="flex gap-2 mb-10">
         <Image src={logo} priority alt="logo" />

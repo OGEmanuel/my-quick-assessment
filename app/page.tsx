@@ -13,7 +13,7 @@ export default function Home() {
   };
 
   return (
-    <section className="max-w-[1728px] mx-auto md:grid grid-cols-[20%,_1fr] gap-16">
+    <section className="max-w-[1728px] mx-auto md:grid grid-cols-[20%,_1fr] gap-16 2xl:gap-0">
       <Sidebar open={open} setOpen={toggleOpen} />
       <MainContent open={open} setOpen={toggleOpen} />
       {open && <Modal open={open} setOpen={toggleOpen} />}
