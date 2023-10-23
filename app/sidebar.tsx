@@ -17,7 +17,7 @@ const Sidebar = (props: dataPropsType) => {
   const { open } = props;
   return (
     <nav
-      className={`px-4 py-7 border-r md:w-[25%] xl:w-[23%] border-[#EBEBEB] md:block ${
+      className={`px-4 py-7 border-r md:w-[25%] xl:w-[23%] 2xl:w-[15%] border-[#EBEBEB] md:block ${
         open ? "block bg-white" : "hidden"
       } h-screen scroll fixed overflow-auto`}
     >
